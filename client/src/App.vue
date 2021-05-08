@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import { reactive, ref, toRefs, computed } from 'vue'
+import { reactive, toRefs } from 'vue'
 import Footer from "./views/Home/footer.vue"
 
 export default {
@@ -14,7 +14,7 @@ export default {
     components:{
       Footer
     },
-   setup(props){
+   setup(){
       const state = reactive(
         {a:111,
         //  n: computed(()=>{

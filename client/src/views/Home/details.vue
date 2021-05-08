@@ -4,12 +4,15 @@
     <ul>
       <li>
         <img src="@/assets/image/5.jpg" alt />
+        <div>云南</div>
       </li>
       <li>
         <img src="@/assets/image/6.jpg" alt />
+        <div>土耳其</div>
       </li>
       <li>
         <img src="@/assets/image/7.jpg" alt />
+        <div>洛杉矶</div>
       </li>
     </ul>
   </div>
@@ -34,9 +37,11 @@ export default {
     display: flex;
     justify-content: space-evenly;
     li {
-      width: 100px;
-      height: 150px;
-      overflow: hidden;
+      img {
+        overflow: hidden;
+        width: 100px;
+        height: 150px;
+      }
     }
   }
 }
